@@ -11,7 +11,7 @@ def euclideanDistance(point1, point2):
     return distance
 
 
-min_distance = float('inf')  # Sonsuz olarak başlatılır
+min_distance = float('inf')  
 for i in range(len(points)):
     for j in range(i + 1, len(points)):
         distance = euclideanDistance(points[i], points[j])
